@@ -30,6 +30,11 @@ class Lottery
      * How much credit the user will lose if the number is not guessed
      */
     CONST CREDIT_LOSE = 50;
+
+    /**
+     * @param int $credit
+     * @param int $round
+     */
     public function __construct(private int $credit = 1000, private int $round = 1)
     {}
 
